@@ -1,7 +1,6 @@
 # Домашнее задание "Что такое DevOps. CI/CD" - Карих Елена
   Netology
-```
-```
+
 ## Задание 1
 
 1. Разверните GitLab локально, используя Vagrantfile и инструкцию, описанные в этом репозитории.
@@ -13,7 +12,7 @@
 ## Решение 1
 
 Запустила runner:
-![scrin](scrins/scrin1.png)
+![scrin](scrin1.png)
 
 ## Задание 2
 
@@ -65,7 +64,7 @@ build:
    - docker build .
 ```
 Результат pipeline:
-![scrin](scrins/scrin2.png)
+![scrin](scrin2.png)
 
 Создала token для sonar:
-![scrin](scrins/scrin3.png)
+![scrin](scrin3.png)
