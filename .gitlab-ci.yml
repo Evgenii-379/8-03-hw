@@ -15,7 +15,7 @@ sonarqube-check:
   entrypoint: [""]
  variables:
  script:
-  - sonar-scanner -Dsonar.projectKey=hw-8-03 -Dsonar.sources=. -Dsonar.host.url=http://158.160.1.110:9000 -Dsonar.login=sqa_216eb3720e5f8180481b6253865ada72f153abe1
+  - sonar-scanner -Dsonar.projectKey=My-Gitlab-project -Dsonar.sources=. -Dsonar.host.url=http://51.250.123.85:9000 -Dsonar.login=sqp_4e54f43e71f60669eff768c065dece72a7f90e5c
 
 build:
   stage: build
@@ -33,3 +33,5 @@ build:
     - master
   script:
    - docker build .
+
+
